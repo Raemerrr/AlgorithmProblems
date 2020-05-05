@@ -32,9 +32,11 @@ int main()
 	cin >> str;
 	for (int i = 0; i < str.size(); i++)
 	{
+		//모든 경우의 접두어를 이용하기 위해. substr() 사용
 		vector<int> pi = getPi(str.substr(i));
 		for (const auto d : pi)
 		{
+			//부분 문자열의 가장 큰 값 구하기
 			ans = (ans > d) ? ans : d;
 		}
 	}
