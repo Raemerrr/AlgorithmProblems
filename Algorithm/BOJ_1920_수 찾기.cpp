@@ -8,7 +8,8 @@ int N, M;
 
 vector<int> nV;
 vector<int> mV;
-void binarySearch(const int n)
+
+int binarySearch(const int n)
 {
 	int left = 0;
 	int right = nV.size();
@@ -21,23 +22,14 @@ void binarySearch(const int n)
 	{
 		left = mid;
 	}
-	bool flag = false;
 	for (int i = left; i < right; i++)
 	{
 		if (nV[i] == n)
 		{
-			flag = true;
-			break;
+			return 1;
 		}
 	}
-	if (flag)
-	{
-		cout << "1\n";
-	}
-	else
-	{
-		cout << "0\n";
-	}
+	return 0;
 }
 
 int main()
