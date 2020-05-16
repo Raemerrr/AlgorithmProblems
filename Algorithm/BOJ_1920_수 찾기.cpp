@@ -17,10 +17,21 @@ int binarySearch(const int n)
 	if (n < nV[mid])
 	{
 		right = mid;
+		while (n < nV[right])
+		{
+			if (right > 1 && n < nV[right / 2]) { right /= 2; }
+			else { break; }
+		}
 	}
 	else
 	{
 		left = mid;
+		while (n >= nV[left])
+		{
+			int diff = (right - left) / 2;
+			if (left < nV.size() - 1 && n >= nV[left + (diff)]) { left += diff; }
+			else { break; }
+		}
 	}
 	for (int i = left; i < right; i++)
 	{
