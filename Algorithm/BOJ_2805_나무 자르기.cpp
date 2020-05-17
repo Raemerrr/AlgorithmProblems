@@ -6,12 +6,12 @@
 정답:
 2
 
-출력:
-3
-
+입력:
 4 6
 2 5 7 8
 
+정답:
+4
 */
 #include <iostream>
 #include <vector>
@@ -65,6 +65,7 @@ int main()
 	cin >> N >> M;
 	v = vector<ULL>(N, 0);
 	for (int i = 0; i < N; i++) { cin >> v[i]; }
+	//정렬 후 탐색!
 	sort(v.begin(), v.end());
 	cout << binarySearch() << "\n";
 	return 0;
