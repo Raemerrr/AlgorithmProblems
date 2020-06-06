@@ -1,40 +1,13 @@
-/*
-100 7 7
-3 2 2 3 9
-3 3 1 3 3
-3 5 1 4 7
-3 6 2 4 6
-2 4 1 2 8
-1 4 2 2 4
-4 4 1 1 5
-
-correct answer = 0;
-
-Input
-100 7 7
-3 2 2 3 9
-3 3 1 3 3
-3 5 1 4 7
-3 6 2 4 6
-2 4 1 2 8
-1 4 2 2 4
-4 4 1 1 5
-
-Answer
-0
-*/
-
 #include <iostream>
 #include <map>
+#include <set>
 #include <vector>
 #include <algorithm>
-#include <set>
 
 using namespace std;
 
-class Fish
+struct Fish
 {
-public:
 	int y;
 	int x;
 	//속도
@@ -46,7 +19,8 @@ public:
 	Fish() {}
 	Fish(int y, int x, int s, int d, int z) : y(y), x(x), s(s), d(d), z(z) {}
 };
-const int MAX = 100 + 1;
+
+const int MAX = 200 + 1;
 int R, C, U, ans;
 vector<int> board[MAX][MAX];
 map<int, Fish> m;
@@ -76,14 +50,14 @@ int Hit(const int xPos)
 		{
 			res = m[board[i][curPos][0]].z;
 			m.erase(board[i][curPos][0]);
-			board[i][curPos].pop_back();
+			board[i][curPos].clear();
 			break;
 		}
 	}
 	return res;
 }
 
-pair<int, int> Dir(const int d)
+pair<int, int> CheckDir(const int d)
 {
 	pair<int, int> dir(0, 0);
 	if (d == _top)
@@ -129,6 +103,7 @@ int Uturn(const int d)
 
 void Move()
 {
+	vector<pair<int, pair<int, int>>> pos;
 	for (auto& d : m)
 	{
 		int posY = d.second.y;
@@ -146,40 +121,47 @@ void Move()
 		}
 		for (int i = 0; i < speed; i++)
 		{
-			pair<int, int> dir = Dir(d.second.d);
+			pair<int, int> dir = CheckDir(d.second.d);
 			int tempY = posY + dir.first;
 			int tempX = posX + dir.second;
 			if (!CheckWall(tempY, tempX))
 			{
 				//방향 전환
 				d.second.d = Uturn(d.second.d);
-				dir = Dir(d.second.d);
-				tempY = posY + dir.first;
-				tempX = posX + dir.second;
+				i--;
+				continue;
 			}
 			posY = tempY;
 			posX = tempX;
 		}
 		d.second.y = posY;
 		d.second.x = posX;
-		board[posY][posX].emplace_back(d.first);
+		pos.emplace_back(d.first, make_pair(posY, posX));
+	}
+	//물고기 전체 이동 후 이동 자리 입력
+	for (const auto& d : pos)
+	{
+		board[d.second.first][d.second.second].emplace_back(d.first);
 	}
 }
 
-void Eat() 
+void Eat()
 {
+	//물고기들의 위치를 탐색하며 같은 위치에 물고기가 존재하다면
 	set<pair<int, int>> pos;
 	for (const auto& d : m)
 	{
 		if (board[d.second.y][d.second.x].size() > 1)
 		{
-			pos.insert(make_pair(d.second.y, d.second.x));
+			pos.emplace(d.second.y, d.second.x);
 		}
 	}
+
 	for (const auto& d : pos)
 	{
 		int maxSize = 0;
 		int ID = 0;
+		//탐색을 통해 구한 위치의 가장 큰 물고기 찾기
 		for (const auto& t : board[d.first][d.second])
 		{
 			if (maxSize < m[t].z)
@@ -204,18 +186,18 @@ void Eat()
 
 int main()
 {
-	std::ios_base::sync_with_stdio(false);
-	std::cin.tie(0);
-	std::cin >> R >> C >> U;
+	ios_base::sync_with_stdio(false);
+	cin.tie(0);
+	cin >> R >> C >> U;
 	if (U == 0)
 	{
-		std::cout << "0\n";
+		cout << "0\n";
 		return 0;
 	}
 	for (int i = 0; i < U; i++)
 	{
 		int r1 = 0, c1 = 0, s = 0, d = 0, z = 0;
-		std::cin >> r1 >> c1 >> s >> d >> z;
+		cin >> r1 >> c1 >> s >> d >> z;
 		board[r1][c1].emplace_back(i);
 		m[i] = Fish(r1, c1, s, d, z);
 	}
@@ -228,6 +210,6 @@ int main()
 		//겹치는 상어 먹기
 		Eat();
 	}
-	std::cout << ans;
+	cout << ans;
 	return 0;
 }
