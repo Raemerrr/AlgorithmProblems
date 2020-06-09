@@ -16,6 +16,15 @@
     <Filter Include="소스 파일\BOJ">
       <UniqueIdentifier>{5bd5a96e-84a9-4452-a0c5-a90cb4629c9e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\KAKAO">
+      <UniqueIdentifier>{c994cdcc-84b6-4f3d-8c5e-6a07bedce1c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\20.05KAKAO">
+      <UniqueIdentifier>{08735f3d-75d1-4c6b-9172-8f9d8c729a2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\SWEA">
+      <UniqueIdentifier>{5ab114b5-d3a2-4ef2-ab5c-1c4759f81722}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BOJ_9120_Oulipo.cpp">
@@ -28,6 +37,147 @@
       <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
     <ClCompile Include="BOJ_1701_Cubeditor.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1786_찾기.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_11585_속타는 저녁 메뉴.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_3779_주기.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="20상_KAKAO_1.cpp">
+      <Filter>소스 파일\KAKAO</Filter>
+    </ClCompile>
+    <ClCompile Include="20상_KAKAO_2.cpp">
+      <Filter>소스 파일\KAKAO</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_13460_구슬 탈출 2.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_9935_문자열 폭발.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_6198_옥상 정원 꾸미기.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_14502_연구소.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_5052_전화번호 목록.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="t.cpp">
+      <Filter>소스 파일\20.05KAKAO</Filter>
+    </ClCompile>
+    <ClCompile Include="1.cpp">
+      <Filter>소스 파일\20.05KAKAO</Filter>
+    </ClCompile>
+    <ClCompile Include="2.cpp">
+      <Filter>소스 파일\20.05KAKAO</Filter>
+    </ClCompile>
+    <ClCompile Include="3.cpp">
+      <Filter>소스 파일\20.05KAKAO</Filter>
+    </ClCompile>
+    <ClCompile Include="4.cpp">
+      <Filter>소스 파일\20.05KAKAO</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1978_소수 찾기.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1912_연속 합.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1085_직사각형에서 탈출.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1712_손익분기점.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2869_달팽이는 올라가고 싶다.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2582_동전 뒤집기.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_4195_친구네트워크.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1920_수 찾기.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_9663_N-Queen.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2805_나무 자르기.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_17141_연구소2.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_17142_연구소3.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_10815_숫자 카드.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1654_랜선 자르기.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_10816_숫자 카드2.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_17143_낚시왕.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_14503_로봇 청소기.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2668_숫자고르기.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_14888_연산자 끼워넣기.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_17144_미세먼지 안녕.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_14501_퇴사.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_14891_톱니바퀴.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_14890_경사로.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_11399_ATM.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1149_RGB거리.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="SWEA_9088_다이아몬드.cpp">
+      <Filter>소스 파일\SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="SWEA_8993_하지추측.cpp">
+      <Filter>소스 파일\SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_14890_경사로(2).cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1463_1로 만들기.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="SWEA_1244_최대 상금.cpp">
+      <Filter>소스 파일\SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_16236_아기 상어.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2579_계단 오르기.cpp">
       <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
   </ItemGroup>
