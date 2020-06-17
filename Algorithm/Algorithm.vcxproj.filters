@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\BOJ">
-      <UniqueIdentifier>{5bd5a96e-84a9-4452-a0c5-a90cb4629c9e}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\KAKAO">
       <UniqueIdentifier>{c994cdcc-84b6-4f3d-8c5e-6a07bedce1c5}</UniqueIdentifier>
     </Filter>
@@ -24,6 +21,9 @@
     </Filter>
     <Filter Include="소스 파일\SWEA">
       <UniqueIdentifier>{5ab114b5-d3a2-4ef2-ab5c-1c4759f81722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BOJ">
+      <UniqueIdentifier>{5bd5a96e-84a9-4452-a0c5-a90cb4629c9e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -181,6 +181,12 @@
       <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
     <ClCompile Include="BOJ_2193_이친수.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2156_포도주 시식.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_11726_2xn 타일링.cpp">
       <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
   </ItemGroup>
