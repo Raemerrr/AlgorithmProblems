@@ -2,14 +2,23 @@
 #include <vector>
 #include <string>
 #include <map>
+#include <set>
 
 using namespace  std;
 
 int N, K, ans;
-vector<string> v;
+vector<char> combi;
+map<string, int> tempMap;
 map<char, bool> m{ {'a',true},{'n',true},{'t',true},{'i',true},{'c',true} };
-int start_ = int('a');
-int end_ = int('z');
+
+bool CheckWords(const char c)
+{
+	if (c != 'a' && c != 'n' && c != 't' && c != 'i' && c != 'c')
+	{
+		return true;
+	}
+	return false;
+}
 
 void DFS(const int index, const int cnt)
 {
@@ -17,10 +26,10 @@ void DFS(const int index, const int cnt)
 	{
 		int t_ans = 0;
 		bool flag;
-		for (const auto& d : v)
+		for (const auto& d : tempMap)
 		{
 			flag = true;
-			for(const auto& z : d)
+			for (const auto& z : d.first)
 			{
 				if (!m[z])
 				{
@@ -30,23 +39,23 @@ void DFS(const int index, const int cnt)
 			}
 			if (flag)
 			{
-				t_ans++;
+				t_ans += d.second;
 			}
 		}
 		ans = (ans > t_ans) ? ans : t_ans;
 	}
 	else
 	{
-		for (int i = index; i <= end_; i++)
+		for (int i = index; i < combi.size(); i++)
 		{
-			char c = i;
-			if (m[c]) { continue; }
-			m[c] = true;
+			if (m[combi[i]]) { continue; }
+			m[combi[i]] = true;
 			DFS(i + 1, cnt + 1);
-			m[c] = false;
+			m[combi[i]] = false;
 		}
 	}
 }
+
 
 int main()
 {
@@ -54,11 +63,26 @@ int main()
 	cin.tie(0);
 	cin >> N >> K;
 	K -= 5;
+	set<char> s;
+	int maxWordSize = 0;
 	for (int i = 0; i < N; i++)
 	{
+		set<char> t_s;
 		string str;
 		cin >> str;
-		v.push_back(str);
+		for (const auto& d : str)
+		{
+			if (CheckWords(d))
+			{
+				t_s.emplace(d);
+			}
+		}
+		if (t_s.size() <= K)
+		{
+			tempMap[string(t_s.begin(), t_s.end())]++;
+			s.insert(t_s.begin(), t_s.end());
+			maxWordSize = (maxWordSize > t_s.size()) ? maxWordSize : t_s.size();
+		}
 	}
 	if (K < 0)
 	{
@@ -67,10 +91,15 @@ int main()
 	}
 	if (K >= 21)
 	{
-		cout << v.size() << "\n";
+		cout << N << "\n";
 		return 0;
 	}
-	DFS(start_, 0);
+	if (s.size() < K)
+	{
+		K = s.size();
+	}
+	combi = vector<char>(s.begin(), s.end());
+	DFS(0, 0);
 	cout << ans << "\n";
 	return 0;
 }
