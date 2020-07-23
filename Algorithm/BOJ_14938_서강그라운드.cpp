@@ -50,13 +50,18 @@ int main()
 	{
 		int num1 = 0, num2 = 0, dist = 0;
 		cin >> num1 >> num2 >> dist;
+		//노드 연결 A -> B
 		node[num1].emplace_back(num2, dist);
+		//노드 연결 B -> A
 		node[num2].emplace_back(num1, dist);
 	}
 	for (int i = 1; i <= N; i++)
 	{
+		//출발지 방문 처리
 		visited[i] = true;
+		//출발지의 아이템은 무조건 획득
 		tempAns = items[i];
+		//-1은 이전 노드가 없다는 의미.
 		DFS(i, -1, 0);
 		visited = vector<bool>(N + 1, false);
 		ans = (ans > tempAns) ? ans : tempAns;
