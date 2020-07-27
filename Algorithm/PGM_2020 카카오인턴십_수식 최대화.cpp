@@ -5,11 +5,13 @@
 
 using namespace std;
 
+//초기 숫자 순서
 vector<int> nums;
+//초기 연산 기호 순서
 vector<char> op;
+//작업 예정 기호 순서
 vector<vector<int>> indexs;
 vector<map<int, int>> operators;
-vector<bool> visited;
 
 long long Calc(const long long& a, const long long& b, const char c)
 {
