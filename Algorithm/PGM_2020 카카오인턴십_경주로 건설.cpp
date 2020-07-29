@@ -19,9 +19,11 @@ struct Info
 	Info(const int y, const int x, const int price, const int curDir) : y(y), x(x), price(price), curDir(curDir) {}
 };
 
+//범위 계산 등 여러모로 쓰임...
 int boardSize = 0;
 
-bool checkWall(const int y, const int x)
+//범위 체크
+bool checkRange(const int y, const int x)
 {
 	if (x >= 0 && y >= 0 && x < boardSize && y < boardSize)
 	{
@@ -33,24 +35,24 @@ bool checkWall(const int y, const int x)
 int solution(vector<vector<int>> board) {
 	int answer = 0;
 	boardSize = board.size();
-	//vector<vector<bool>> visited = vector<vector<bool>>(boardSize, vector<bool>(boardSize, false));
 	//각 보드의 최소 값을 구할 맵
 	map<pair<int, int>, int> m;
 	for (int i = 0; i < boardSize; i++)
 	{
 		for (int j = 0; j < boardSize; j++)
 		{
+			//최대 값이라고 생각하는 값을 미리 넣어놓는다.
 			m[pair<int, int>(i, j)] = 999999999;
 		}
 	}
-	//BFS이용
+
+	//BFS알고리즘
 	queue<Info> q;
 	q.emplace(0, 0, 0, -1);
 	m[pair<int, int>(0, 0)] = 0;
-	//visited[0][0] = true;
 	while (!q.empty())
 	{
-		//한 사이클
+		//한 사이클 - 큰 의미는 없음.
 		for (int i = 0, size = q.size(); i < size; i++)
 		{
 			Info front = q.front();
@@ -61,7 +63,7 @@ int solution(vector<vector<int>> board) {
 				int tempX = front.x + dx[d];
 				int tempPrice = front.price;
 				int tempDir = d;
-				if (checkWall(tempY, tempX) && board[tempY][tempX] == 0)
+				if (checkRange(tempY, tempX) && board[tempY][tempX] == 0)
 				{
 					//front가 시작 위치(0, 0)라면 방향에 따른 값 증가 없음.
 					if (front.y == 0 && front.x == 0)
