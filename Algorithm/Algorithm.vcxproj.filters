@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\BOJ">
       <UniqueIdentifier>{5bd5a96e-84a9-4452-a0c5-a90cb4629c9e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\PGM">
+      <UniqueIdentifier>{2a470e06-743f-4f40-a356-a09cff0ea64b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BOJ_9120_Oulipo.cpp">
@@ -187,6 +190,87 @@
       <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
     <ClCompile Include="BOJ_11726_2xn 타일링.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ__암호해독가최백준.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1932_정수 삼각형.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_9095_1 2 3 더하기.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_3986_좋은 단어.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1062_가르침.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2002_추월.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1026_보물.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1599_민식어.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_19236_청소년 상어.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1261_알고스팟.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1012_유기농 배추.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_11723_집합.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1759_암호 만들기.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_19237_어른 상어.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_19238_스타트 택시.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2668_숫자 고르기.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_9466_텀 프로젝트.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_14938_서강그라운드.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="PGM_2020 카카오인턴십_키패드.cpp">
+      <Filter>소스 파일\PGM</Filter>
+    </ClCompile>
+    <ClCompile Include="PGM_2020 카카오인턴십_수식 최대화_다른방식.cpp">
+      <Filter>소스 파일\PGM</Filter>
+    </ClCompile>
+    <ClCompile Include="PGM_2020 카카오인턴십_수식 최대화.cpp">
+      <Filter>소스 파일\PGM</Filter>
+    </ClCompile>
+    <ClCompile Include="PGM_2020 카카오인턴십_보석쇼핑.cpp">
+      <Filter>소스 파일\PGM</Filter>
+    </ClCompile>
+    <ClCompile Include="PGM_2020 카카오인턴십_경주로 건설.cpp">
+      <Filter>소스 파일\PGM</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2178_미로탐색.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2504_괄호의 값.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1966_프린터 큐.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1152_단어의 개수.cpp">
       <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
   </ItemGroup>
