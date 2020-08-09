@@ -16,9 +16,6 @@
     <Filter Include="소스 파일\KAKAO">
       <UniqueIdentifier>{c994cdcc-84b6-4f3d-8c5e-6a07bedce1c5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\20.05KAKAO">
-      <UniqueIdentifier>{08735f3d-75d1-4c6b-9172-8f9d8c729a2f}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\SWEA">
       <UniqueIdentifier>{5ab114b5-d3a2-4ef2-ab5c-1c4759f81722}</UniqueIdentifier>
     </Filter>
@@ -27,6 +24,9 @@
     </Filter>
     <Filter Include="소스 파일\PGM">
       <UniqueIdentifier>{2a470e06-743f-4f40-a356-a09cff0ea64b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Algorithm">
+      <UniqueIdentifier>{b8ff7d66-4412-48ff-bdda-bf54195ba21b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -71,21 +71,6 @@
     </ClCompile>
     <ClCompile Include="BOJ_5052_전화번호 목록.cpp">
       <Filter>소스 파일\BOJ</Filter>
-    </ClCompile>
-    <ClCompile Include="t.cpp">
-      <Filter>소스 파일\20.05KAKAO</Filter>
-    </ClCompile>
-    <ClCompile Include="1.cpp">
-      <Filter>소스 파일\20.05KAKAO</Filter>
-    </ClCompile>
-    <ClCompile Include="2.cpp">
-      <Filter>소스 파일\20.05KAKAO</Filter>
-    </ClCompile>
-    <ClCompile Include="3.cpp">
-      <Filter>소스 파일\20.05KAKAO</Filter>
-    </ClCompile>
-    <ClCompile Include="4.cpp">
-      <Filter>소스 파일\20.05KAKAO</Filter>
     </ClCompile>
     <ClCompile Include="BOJ_1978_소수 찾기.cpp">
       <Filter>소스 파일\BOJ</Filter>
@@ -272,6 +257,9 @@
     </ClCompile>
     <ClCompile Include="BOJ_1152_단어의 개수.cpp">
       <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="Union-Find.cpp">
+      <Filter>소스 파일\Algorithm</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
