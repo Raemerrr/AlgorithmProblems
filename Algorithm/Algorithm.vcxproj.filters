@@ -261,5 +261,8 @@
     <ClCompile Include="Union-Find.cpp">
       <Filter>소스 파일\Algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="Floyd-Warshall%28플로이드-워샬 알고리즘%29.cpp">
+      <Filter>소스 파일\Algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
