@@ -93,4 +93,5 @@ int main()
 			cout << "sad\n";
 		}
 	}
+	return 0;
 }
