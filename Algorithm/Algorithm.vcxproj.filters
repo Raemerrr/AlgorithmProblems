@@ -276,5 +276,8 @@
     <ClCompile Include="BOJ_2458_키 순서.cpp">
       <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_1613_역사.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
