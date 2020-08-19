@@ -288,5 +288,8 @@
     <ClCompile Include="BOJ_2660_회장 뽑기.cpp">
       <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_6118_숨바꼭질.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
