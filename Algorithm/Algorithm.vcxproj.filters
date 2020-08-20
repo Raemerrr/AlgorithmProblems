@@ -291,5 +291,11 @@
     <ClCompile Include="BOJ_6118_숨바꼭질.cpp">
       <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_4485_녹색 옷 입은 애가 젤다지.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2211_네트워크 복구.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
