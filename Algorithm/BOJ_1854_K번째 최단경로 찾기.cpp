@@ -23,11 +23,13 @@ void dijkstra()
 			int Next = v[cur][i].first;
 			int nCost = v[cur][i].second;
 			int sumCost = cost + nCost;
+			//최단 거리 큐에 K개가 들어갈때까지
 			if (dist[Next].size() < K)
 			{
 				dist[Next].push(sumCost);
 				pq.emplace(-sumCost, Next);
 			}
+			//최단 거리 구하기
 			else if (dist[Next].top() > sumCost)
 			{
 				dist[Next].pop();
