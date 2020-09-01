@@ -330,5 +330,11 @@
     <ClCompile Include="BOJ_1865_웜홀.cpp">
       <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_11657_타임 머신.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1865_웜홀%281%29.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
