@@ -15,7 +15,6 @@ set<int> cycles;
 void bellmanFord()
 {
 	bool flag = false;
-	//
 	for (int i = 1; i <= N; i++)
 	{
 		for (auto& d : m)
@@ -117,7 +116,9 @@ int main()
 	for (int i = 0; i < M; i++)
 	{
 		cin >> num1 >> num2 >> cost;
+		//양의 사이클을 찾아야 하므로 비용의 부호를 바꿔 기존 음의 사이클을 찾는 로직을 태운다.
 		cost *= -1;
+		//inputCheck 입력 확인용 기존 입력된 값이 있다면 작은 값으로 입력
 		if (!inputCheck[pair<int, int>(num1, num2)])
 		{
 			m[pair<int, int>(num1, num2)] = cost;

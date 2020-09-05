@@ -5,13 +5,15 @@
 using namespace std;
 const int INF = 100000000;
 int N, M, W;
+//입력 여부 판단
+map<pair<int, int>, bool> inputCheck;
 map<pair<int, int>, int> m;
 vector<int> dist;
 
 void bellmanFord()
 {
 	bool flag = false;
-	for (int i = 1; i < N; i++)
+	for (int i = 1; i <= N; i++)
 	{
 		for (auto& d : m)
 		{
@@ -26,20 +28,12 @@ void bellmanFord()
 			if (dist[to] > dist[from] + cost)
 			{
 				dist[to] = dist[from] + cost;
+				if (i == N)
+				{
+					flag = true;
+					break;
+				}
 			}
-		}
-	}
-
-	for (auto& d : m)
-	{
-		int from = d.first.first;
-		int to = d.first.second;
-		int cost = d.second;
-		//음의 사이클 존재 여부 판단
-		if (dist[to] > dist[from] + cost)
-		{
-			flag = true;
-			break;
 		}
 	}
 
@@ -69,41 +63,47 @@ int main()
 		for (int i = 0; i < M; i++)
 		{
 			cin >> num1 >> num2 >> cost;
-			if (m[pair<int, int>(num1, num2)] != 0)
+			//inputCheck 입력 확인용 기존 입력된 값이 있다면 작은 값으로 입력
+			if (!inputCheck[pair<int, int>(num1, num2)])
+			{
+				m[pair<int, int>(num1, num2)] = cost;
+				inputCheck[pair<int, int>(num1, num2)] = true;
+			}
+			else
 			{
 				int tCost = m[pair<int, int>(num1, num2)];
 				m[pair<int, int>(num1, num2)] = tCost < cost ? tCost : cost;
+
+			}
+			if (!inputCheck[pair<int, int>(num2, num1)])
+			{
+				m[pair<int, int>(num2, num1)] = cost;
+				inputCheck[pair<int, int>(num2, num1)] = true;
 			}
 			else
-			{
-				m[pair<int, int>(num1, num2)] = cost;
-			}
-			if (m[pair<int, int>(num2, num1)] != 0)
 			{
 				int tCost = m[pair<int, int>(num2, num1)];
 				m[pair<int, int>(num2, num1)] = tCost < cost ? tCost : cost;
-			}
-			else
-			{
-				m[pair<int, int>(num2, num1)] = cost;
 			}
 		}
 		//웜홀 단방향 연결
 		for (int i = 0; i < W; i++)
 		{
 			cin >> num1 >> num2 >> cost;
-			if (m[pair<int, int>(num1, num2)] != 0)
+			if (!inputCheck[pair<int, int>(num1, num2)])
+			{
+				m[pair<int, int>(num1, num2)] = -cost;
+				inputCheck[pair<int, int>(num1, num2)] = true;
+			}
+			else
 			{
 				int tCost = m[pair<int, int>(num1, num2)];
 				m[pair<int, int>(num1, num2)] = tCost < -cost ? tCost : -cost;
 			}
-			else
-			{
-				m[pair<int, int>(num1, num2)] = -cost;
-			}
 		}
 		bellmanFord();
 		m.clear();
+		inputCheck.clear();
 	}
 	return 0;
 }
