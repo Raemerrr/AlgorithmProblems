@@ -22,7 +22,6 @@ void bellmanFord()
 			int from = d.first.first;
 			int to = d.first.second;
 			int cost = d.second;
-			// 끊어진 곳에서 음의 사이클이 존재 할 수 있기때문에(?)
 			if (dist[from].first == INF)
 			{
 				continue;
@@ -60,7 +59,6 @@ void bellmanFord()
 					int from = d.first.first;
 					int to = d.first.second;
 					int cost = d.second;
-					// 끊어진 곳에서 음의 사이클이 존재 할 수 있기때문에(?)
 					if (dist[from].first == INF)
 					{
 						continue;
