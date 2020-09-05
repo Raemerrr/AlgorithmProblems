@@ -10,6 +10,7 @@ const LL INF = 9223372036854775805;
 int N, M;
 vector<LL> dist;
 map<pair<int, int>, LL> nodes;
+map<pair<int, int>, bool> inputCheck;
 
 void bellmanFord()
 {
@@ -80,9 +81,10 @@ int main()
 	{
 		int num1 = 0, num2 = 0, cost = 0;
 		cin >> num1 >> num2 >> cost;
-		if (nodes[pair<int, int>(num1, num2)] == 0)
+		if (!inputCheck[pair<int, int>(num1, num2)])
 		{
 			nodes[pair<int, int>(num1, num2)] = cost;
+			inputCheck[pair<int, int>(num1, num2)] = true;
 		}
 		else
 		{
