@@ -339,5 +339,8 @@
     <ClCompile Include="BOJ_1738_골목길.cpp">
       <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_1219_오민식의 고민.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
