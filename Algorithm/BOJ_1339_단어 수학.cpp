@@ -23,7 +23,7 @@ int main() {
 
 	for (const auto& d : v)
 	{
-		idx = 1;
+		idx = 0;
 		for (auto it = d.rbegin(); it != d.rend(); it++)
 		{
 			m[*it] += pow(10, idx);
@@ -49,17 +49,13 @@ int main() {
 	for (const auto& d : v)
 	{
 		int tAns = 0;
-		idx = 1;
+		idx = 0;
 		for (auto i = d.rbegin(); i != d.rend(); i++)
 		{
 			tAns += m[*i] * pow(10, idx);
 			idx++;
 		}
-		if (tAns > 0)
-		{
-			tAns /= 10;
-			ans += tAns;
-		}
+		ans += tAns;
 	}
 	cout << ans << "\n";
 	return 0;
