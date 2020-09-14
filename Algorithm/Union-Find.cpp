@@ -2,7 +2,7 @@
 #include <vector>
 
 using namespace std;
-
+const int MAX = 10;
 vector<int> parent;
 
 //부모 노드 찾기
@@ -44,9 +44,10 @@ int main()
 {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
-	for (int i = 0; i < 10; i++)
+	parent = vector<int>(MAX, 0);
+	for (int i = 0; i < MAX; i++)
 	{
-		parent.push_back(i);
+		parent[i] = i;
 	}
 
 	if (findParent(0, 1))

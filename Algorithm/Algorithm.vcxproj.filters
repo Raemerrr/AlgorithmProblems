@@ -363,5 +363,8 @@
     <ClCompile Include="BOJ_2847_게임을 만든 동준이.cpp">
       <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_12813_이진수 연산.cpp">
+      <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
