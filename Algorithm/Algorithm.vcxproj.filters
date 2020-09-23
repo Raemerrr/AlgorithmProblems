@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\BOJ\비트마스킹">
       <UniqueIdentifier>{4c9d7bf0-8d92-4216-890f-d841599a1878}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BOJ\플로이드와샬">
+      <UniqueIdentifier>{425173a7-6a05-4fa1-8c61-28eaeff12524}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="20상_KAKAO_1.cpp">
@@ -375,5 +378,10 @@
     <ClCompile Include="BOJ_12813_이진수 연산.cpp">
       <Filter>소스 파일\BOJ\비트마스킹</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
+      <Filter>소스 파일\BOJ\플로이드와샬</Filter>
+    </Text>
   </ItemGroup>
 </Project>
