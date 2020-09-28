@@ -68,7 +68,6 @@ def BFS():
         #잡아 먹을 것 들이 있다면 선택 해야함.
         if len(possiblePosList) > 0:
             possiblePosList.sort()
-            #크게 의미는 없으나..
             dq.clear()
             newSharkY = possiblePosList[0][0]
             newSharkX = possiblePosList[0][1]
