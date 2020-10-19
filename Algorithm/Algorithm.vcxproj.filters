@@ -37,6 +37,12 @@
     <Filter Include="소스 파일\BOJ\플로이드와샬">
       <UniqueIdentifier>{425173a7-6a05-4fa1-8c61-28eaeff12524}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BOJ\다익스트라">
+      <UniqueIdentifier>{36133f03-f084-485c-a57d-1e7ae65df263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BOJ\벨만-포드">
+      <UniqueIdentifier>{2293e685-f891-4ac9-8dad-9cba873faf39}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="20상_KAKAO_1.cpp">
@@ -377,6 +383,12 @@
     </ClCompile>
     <ClCompile Include="BOJ_12813_이진수 연산.cpp">
       <Filter>소스 파일\BOJ\비트마스킹</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1916_최소비용 구하기%281%29.cpp">
+      <Filter>소스 파일\BOJ\다익스트라</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_11657_타임머신.cpp">
+      <Filter>소스 파일\BOJ\벨만-포드</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
