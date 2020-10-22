@@ -396,6 +396,12 @@
     <ClCompile Include="PGM_기능개발.cpp">
       <Filter>소스 파일\PGM</Filter>
     </ClCompile>
+    <ClCompile Include="PGM_다리를 지나는 트럭.cpp">
+      <Filter>소스 파일\PGM</Filter>
+    </ClCompile>
+    <ClCompile Include="PGM_디스크 컨트롤러.cpp">
+      <Filter>소스 파일\PGM</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
