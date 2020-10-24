@@ -411,6 +411,9 @@
     <ClCompile Include="PGM_모의고사.cpp">
       <Filter>소스 파일\PGM</Filter>
     </ClCompile>
+    <ClCompile Include="PGM_가장 먼 노드.cpp">
+      <Filter>소스 파일\PGM</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
