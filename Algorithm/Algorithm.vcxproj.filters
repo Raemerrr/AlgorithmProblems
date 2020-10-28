@@ -43,6 +43,9 @@
     <Filter Include="소스 파일\BOJ\벨만-포드">
       <UniqueIdentifier>{2293e685-f891-4ac9-8dad-9cba873faf39}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BOJ\문자열">
+      <UniqueIdentifier>{05a227be-8c8d-46eb-965c-3f02f4c0a235}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="20상_KAKAO_1.cpp">
@@ -416,6 +419,12 @@
     </ClCompile>
     <ClCompile Include="PGM_순위.cpp">
       <Filter>소스 파일\PGM</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_IS.cpp">
+      <Filter>소스 파일\BOJ\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_18352_특정 거리의 도시 찾기.cpp">
+      <Filter>소스 파일\BOJ\플로이드와샬</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
