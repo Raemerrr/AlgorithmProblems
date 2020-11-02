@@ -46,6 +46,12 @@
     <Filter Include="소스 파일\BOJ\문자열">
       <UniqueIdentifier>{05a227be-8c8d-46eb-965c-3f02f4c0a235}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BOJ\우선순위큐">
+      <UniqueIdentifier>{97219847-0d08-47e3-94c3-5a8ecfeb8bd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BOJ\투포인터">
+      <UniqueIdentifier>{69db069d-3fff-4b2d-8eef-90cc5249d403}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="20상_KAKAO_1.cpp">
@@ -425,6 +431,18 @@
     </ClCompile>
     <ClCompile Include="BOJ_18352_특정 거리의 도시 찾기.cpp">
       <Filter>소스 파일\BOJ\플로이드와샬</Filter>
+    </ClCompile>
+    <ClCompile Include="거의 최단 경로.cpp">
+      <Filter>소스 파일\BOJ\다익스트라</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_10360_The Mountain of Gold.cpp">
+      <Filter>소스 파일\BOJ\벨만-포드</Filter>
+    </ClCompile>
+    <ClCompile Include="Two_Pointer.cpp">
+      <Filter>소스 파일\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2075_N번째 큰 수.cpp">
+      <Filter>소스 파일\BOJ\우선순위큐</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
