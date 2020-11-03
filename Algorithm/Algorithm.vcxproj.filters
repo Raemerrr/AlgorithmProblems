@@ -444,6 +444,18 @@
     <ClCompile Include="BOJ_2075_N번째 큰 수.cpp">
       <Filter>소스 파일\BOJ\우선순위큐</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_2003_수들의 합 2.cpp">
+      <Filter>소스 파일\BOJ\투포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2096_내려가기.cpp">
+      <Filter>소스 파일\BOJ\투포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1644_소수의 연속합.cpp">
+      <Filter>소스 파일\BOJ\투포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1806_부분합.cpp">
+      <Filter>소스 파일\BOJ\투포인터</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
