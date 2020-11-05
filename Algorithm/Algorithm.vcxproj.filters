@@ -456,6 +456,12 @@
     <ClCompile Include="BOJ_1806_부분합.cpp">
       <Filter>소스 파일\BOJ\투포인터</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_2230_수 고르기.cpp">
+      <Filter>소스 파일\BOJ\투포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1484_다이어트.cpp">
+      <Filter>소스 파일\BOJ\투포인터</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
