@@ -52,6 +52,9 @@
     <Filter Include="소스 파일\BOJ\투포인터">
       <UniqueIdentifier>{69db069d-3fff-4b2d-8eef-90cc5249d403}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BOJ\DP">
+      <UniqueIdentifier>{9914f237-d548-48f3-a7b0-ed3d0cecd62f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="20상_KAKAO_1.cpp">
@@ -464,6 +467,9 @@
     </ClCompile>
     <ClCompile Include="BOJ_2531_회전 초밥.cpp">
       <Filter>소스 파일\BOJ\투포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2293_동전 1.cpp">
+      <Filter>소스 파일\BOJ\DP</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
