@@ -55,6 +55,9 @@
     <Filter Include="소스 파일\BOJ\DP">
       <UniqueIdentifier>{9914f237-d548-48f3-a7b0-ed3d0cecd62f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BOJ\최소힙">
+      <UniqueIdentifier>{d0459863-76a8-4c91-9f0a-ee7ea674dcb3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="20상_KAKAO_1.cpp">
@@ -473,6 +476,9 @@
     </ClCompile>
     <ClCompile Include="BOJ_11659_구간 합 구하기 4.cpp">
       <Filter>소스 파일\BOJ\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2696_중앙값 구하기.cpp">
+      <Filter>소스 파일\BOJ\최소힙</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
