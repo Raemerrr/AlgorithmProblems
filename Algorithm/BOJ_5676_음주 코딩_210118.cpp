@@ -1,4 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <vector>
 #include <cmath>
@@ -10,18 +9,7 @@ vector<int> v;
 vector<int> segmentTree;
 
 int converting(int val) {
-	if (val == 0)
-	{
-		return 0;
-	}
-	else if (val > 0)
-	{
-		return 1;
-	}
-	else
-	{
-		return -1;
-	}
+	return (val == 0 ? 0 : (val > 0) ? 1 : -1);
 }
 
 int make_tree(int Node, int Start, int End) {
@@ -31,7 +19,6 @@ int make_tree(int Node, int Start, int End) {
 }
 
 int update_tree(int Node, int Start, int End, int Index, int value) {
-	;
 	if (Index < Start || End < Index) { return segmentTree[Node]; }
 	if (Start == End) { return segmentTree[Node] = value; }
 	int Mid = (Start + End) / 2;
@@ -39,10 +26,7 @@ int update_tree(int Node, int Start, int End, int Index, int value) {
 }
 
 int query_tree(int Node, int Start, int End, int Left, int Right) {
-	if (End < Left || Right < Start)
-	{
-		return 1;
-	}
+	if (End < Left || Right < Start) { return 1; }
 	if (Left <= Start && End <= Right)
 	{
 		return segmentTree[Node];
@@ -54,7 +38,6 @@ int query_tree(int Node, int Start, int End, int Left, int Right) {
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
-	freopen("input.txt", "r", stdin);
 	while (cin >> N >> K) {
 		v.assign(N, 1);
 		int treeHeight = (int)ceil(log2(N));
