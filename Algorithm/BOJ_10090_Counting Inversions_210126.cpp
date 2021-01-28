@@ -44,9 +44,9 @@ int main() {
 	sort(v.begin(), v.end());
 	for (int i = 0; i < N; i++)
 	{
-		int idx = (v[i].second * -1) - 1;
-		answer += query_tree(1, 0, N - 1, 0, idx);
-		update_tree(1, 0, N - 1, idx, 1);
+		int idx = (v[i].second * -1);
+		answer += query_tree(1, 1, N, 0, idx);
+		update_tree(1, 1, N, idx, 1);
 	}
 	cout << answer << "\n";
 	return 0;
