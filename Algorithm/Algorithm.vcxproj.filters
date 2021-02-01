@@ -61,6 +61,15 @@
     <Filter Include="소스 파일\BOJ\Union-Find">
       <UniqueIdentifier>{d4ef4556-99f2-4146-b075-fcaa6b5ea54a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BOJ\SegmentTree">
+      <UniqueIdentifier>{7b03be6c-8474-4942-aa05-6c4c048a6adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BOJ\ETC">
+      <UniqueIdentifier>{a1347948-6a5f-4181-83f3-277100620673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BOJ\Stack">
+      <UniqueIdentifier>{8dde2f13-99e1-4462-a954-4e17b61c0ec6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="20상_KAKAO_1.cpp">
@@ -500,6 +509,63 @@
     </ClCompile>
     <ClCompile Include="BOJ_16562_친구비.cpp">
       <Filter>소스 파일\BOJ\Union-Find</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_3197_백조의 호수_210107.cpp">
+      <Filter>소스 파일\BOJ\Union-Find</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_14868_문명_210108.cpp">
+      <Filter>소스 파일\BOJ\Union-Find</Filter>
+    </ClCompile>
+    <ClCompile Include="SegmentTree.cpp">
+      <Filter>소스 파일\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2357_최솟값과 최댓값_210113.cpp">
+      <Filter>소스 파일\BOJ\SegmentTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_10868_최솟값_210114.cpp">
+      <Filter>소스 파일\BOJ\SegmentTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_10999_구간 합 구하기2_210115.cpp">
+      <Filter>소스 파일\BOJ\SegmentTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_11505_구간 곱 구하기_210115.cpp">
+      <Filter>소스 파일\BOJ\SegmentTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_5676_음주 코딩_210118.cpp">
+      <Filter>소스 파일\BOJ\SegmentTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1275_커피숍2_210117.cpp">
+      <Filter>소스 파일\BOJ\SegmentTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2268_수들의 합_210120.cpp">
+      <Filter>소스 파일\BOJ\SegmentTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_12837_가계부_210121.cpp">
+      <Filter>소스 파일\BOJ\SegmentTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1517_버블소트_210122.cpp">
+      <Filter>소스 파일\BOJ\SegmentTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2042_구간 합 구하기_210124.cpp">
+      <Filter>소스 파일\BOJ\SegmentTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_7578_공장_210125.cpp">
+      <Filter>소스 파일\BOJ\SegmentTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1725_히스토그램_실패.cpp">
+      <Filter>소스 파일\BOJ\SegmentTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_10090_Counting Inversions_210126.cpp">
+      <Filter>소스 파일\BOJ\SegmentTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_3653_영화 수집_210127.cpp">
+      <Filter>소스 파일\BOJ\SegmentTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_3653_영화 수집_210128.cpp">
+      <Filter>소스 파일\BOJ\SegmentTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_14284_간선 이어가기 2_210201.cpp">
+      <Filter>소스 파일\BOJ\다익스트라</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
