@@ -558,14 +558,14 @@
     <ClCompile Include="BOJ_10090_Counting Inversions_210126.cpp">
       <Filter>소스 파일\BOJ\SegmentTree</Filter>
     </ClCompile>
-    <ClCompile Include="BOJ_3653_영화 수집_210127.cpp">
-      <Filter>소스 파일\BOJ\SegmentTree</Filter>
-    </ClCompile>
     <ClCompile Include="BOJ_3653_영화 수집_210128.cpp">
       <Filter>소스 파일\BOJ\SegmentTree</Filter>
     </ClCompile>
     <ClCompile Include="BOJ_14284_간선 이어가기 2_210201.cpp">
       <Filter>소스 파일\BOJ\다익스트라</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_10360_The Mountain of Gold_210202_실패.cpp">
+      <Filter>소스 파일\BOJ\벨만-포드</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
