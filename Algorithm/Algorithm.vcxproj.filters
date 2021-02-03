@@ -567,6 +567,9 @@
     <ClCompile Include="BOJ_10360_The Mountain of Gold_210202_실패.cpp">
       <Filter>소스 파일\BOJ\벨만-포드</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_2243_사탕상자_210203.cpp">
+      <Filter>소스 파일\BOJ\SegmentTree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
