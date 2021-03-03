@@ -70,6 +70,9 @@
     <Filter Include="소스 파일\BOJ\Stack">
       <UniqueIdentifier>{8dde2f13-99e1-4462-a954-4e17b61c0ec6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BOJ\TreeDP">
+      <UniqueIdentifier>{0aa2fdef-d6ec-4fcb-8e4e-87cec8e93b31}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="20상_KAKAO_1.cpp">
@@ -581,6 +584,9 @@
     </ClCompile>
     <ClCompile Include="BOJ_1395_스위치_20210224.cpp">
       <Filter>소스 파일\BOJ\SegmentTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2533_사회망 서비스%28SNS%29.cpp">
+      <Filter>소스 파일\BOJ\TreeDP</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
