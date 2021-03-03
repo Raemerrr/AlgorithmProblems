@@ -1,16 +1,16 @@
 #include <iostream>
 #include <vector>
-#include <queue>
 #include <algorithm>
+#include <queue>
 
 using namespace std;
 
 int N, Start = 1;
+vector<int> cost;
 vector<vector<int>> v;
 vector<bool> visited;
 vector<vector<int>> dp;
 
-//v를 기존 값에서 단방향 연결로 변경
 void bfs() {
 	vector<vector<int>> og = v;
 	v.assign(N + 1, vector<int>());
@@ -22,8 +22,9 @@ void bfs() {
 		int front = q.front();
 		q.pop();
 		for (const auto& d : og[front]) {
-			if (!visited[d]) {
-				visited[front] = true;
+			if (!visited[d])
+			{
+				visited[d] = true;
 				q.push(d);
 				v[front].push_back(d);
 			}
@@ -31,28 +32,23 @@ void bfs() {
 	}
 }
 
-int solution(int cur, bool flag) {
-	//종료 조건
-	if (dp[cur][flag] != -1)
-	{
+int solution(const int cur, bool flag) {
+	if (dp[cur][flag] != -1) {
 		return dp[cur][flag];
 	}
-	//내가 얼리 아답터(early adaptor)라면 주변은 얼리 아답터(early adaptor)이거나 아니거나 상관 없음.
+	//우수마을이라면
 	if (flag)
 	{
-		dp[cur][flag] = 1;
-		for (const auto& Next : v[cur])
-		{
-			dp[cur][flag] += min(solution(Next, true), solution(Next, false));
+		dp[cur][flag] = cost[cur];
+		for (const auto& d : v[cur]) {
+			dp[cur][flag] += solution(d, false);
 		}
 	}
-	//내가 얼리 아답터(early adaptor)가 아니라면 주변은 무조건 얼리 아답터(early adaptor)여야함.
 	else
 	{
 		dp[cur][flag] = 0;
-		for (const auto& Next : v[cur])
-		{
-			dp[cur][flag] += solution(Next, true);
+		for (const auto& d : v[cur]) {
+			dp[cur][flag] += max(solution(d, true), solution(d, false));
 		}
 	}
 	return dp[cur][flag];
@@ -62,18 +58,22 @@ int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
 	cin >> N;
-	v.assign(N + 1, vector<int>());
+	cost.assign(N + 1, 0);
 	visited.assign(N + 1, false);
+	v.assign(N + 1, vector<int>());
 	dp.assign(N + 1, vector<int>(2, -1));
+	for (int i = 1; i <= N; i++)
+	{
+		cin >> cost[i];
+	}
 	int a = 0, b = 0;
 	for (int i = 0; i < N - 1; i++)
 	{
 		cin >> a >> b;
-		//양방향 연결
 		v[a].push_back(b);
 		v[b].push_back(a);
 	}
 	bfs();
-	cout << min(solution(Start, true), solution(Start, false)) << "\n";
+	cout << max(solution(1, true), solution(1, false)) << "\n";
 	return 0;
 }
