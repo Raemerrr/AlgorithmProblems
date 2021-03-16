@@ -606,6 +606,9 @@
     <ClCompile Include="BOJ_11024_더하기 4_210316.cpp">
       <Filter>소스 파일\진한님\01</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_18258_큐 2_210316.cpp">
+      <Filter>소스 파일\진한님\01</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
