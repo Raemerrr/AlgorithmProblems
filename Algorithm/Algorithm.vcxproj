@@ -582,7 +582,7 @@
     <ClCompile Include="BOJ_1949_우수 마을.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="BOJ_압축%28실패%29_210315.cpp">
+    <ClCompile Include="BOJ_11024_더하기 4_210316.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="BOJ_3078_좋은친구_210316.cpp">
