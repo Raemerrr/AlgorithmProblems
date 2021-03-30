@@ -11,7 +11,6 @@ int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
 	cin >> N >> K >> M;
-	K -= 1;
 	dq.assign(N, 0);
 	for (int i = 0; i < N; i++)
 	{
