@@ -13,7 +13,6 @@ int main() {
 	cin >> str;
 	for (int size = 1; size <= str.size(); size++)
 	{
-
 		for (int i = 0; i < str.size() - (size - 1); i++)
 		{
 			m[str.substr(i, size)]++;
