@@ -76,6 +76,9 @@
     <Filter Include="소스 파일\진한님">
       <UniqueIdentifier>{b716e376-a0de-451c-ae50-f5e992d2621f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\프로시험대비">
+      <UniqueIdentifier>{bd474329-4cb5-4a8e-bfff-d0a9f272497b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="20상_KAKAO_1.cpp">
@@ -671,6 +674,15 @@
     </ClCompile>
     <ClCompile Include="BOJ_8012_한동이는 영업사원!_210415.cpp">
       <Filter>소스 파일\진한님</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_11438_LCA2_210416.cpp">
+      <Filter>소스 파일\프로시험대비</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2042_구간 합 구하기_210416.cpp">
+      <Filter>소스 파일\프로시험대비</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_10999_구간 합 구하기 2_210416.cpp">
+      <Filter>소스 파일\프로시험대비</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
