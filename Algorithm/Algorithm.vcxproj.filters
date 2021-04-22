@@ -693,6 +693,9 @@
     <ClCompile Include="BOJ_14425_문자열 집합_210422.cpp">
       <Filter>소스 파일\진한님</Filter>
     </ClCompile>
+    <ClCompile Include="PGM_2020 카카오인턴십_키패드 누르기_210422.cpp">
+      <Filter>소스 파일\PGM</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
