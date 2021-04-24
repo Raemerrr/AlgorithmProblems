@@ -699,6 +699,9 @@
     <ClCompile Include="PGM_2020 카카오인턴십_보석쇼핑_210423.cpp">
       <Filter>소스 파일\PGM</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_9935_문자열 폭발_210424.cpp">
+      <Filter>소스 파일\BOJ\ETC</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
