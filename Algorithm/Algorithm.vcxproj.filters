@@ -702,6 +702,9 @@
     <ClCompile Include="BOJ_9935_문자열 폭발_210424.cpp">
       <Filter>소스 파일\BOJ\ETC</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_1302_베스트셀러_210425.cpp">
+      <Filter>소스 파일\진한님</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
