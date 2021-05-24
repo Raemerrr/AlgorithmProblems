@@ -7,10 +7,10 @@
 using namespace std;
 
 vector<string> solution(vector<string> orders, vector<int> course) {
+	vector<string> answer;
 	for (string& order : orders) {
 		sort(order.begin(), order.end());
 	}
-	vector<string> answer;
 	for (int z = 0; z < course.size(); z++)
 	{
 		map<string, int> m;
@@ -47,7 +47,7 @@ vector<string> solution(vector<string> orders, vector<int> course) {
 		if (!temp.empty())
 		{
 			int val = temp.back().second;
-			while (temp.back().second == val && val > 2)
+			while (temp.back().second == val && val > 1)
 			{
 				answer.push_back(temp.back().first);
 				temp.pop_back();
