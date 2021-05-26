@@ -729,6 +729,9 @@
     <ClCompile Include="PGM_KAKAO2021_순위 검색_210525.cpp">
       <Filter>소스 파일\PGM</Filter>
     </ClCompile>
+    <ClCompile Include="PGM_KAKAO2021_합승 택시 요금_210526.cpp">
+      <Filter>소스 파일\PGM</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
