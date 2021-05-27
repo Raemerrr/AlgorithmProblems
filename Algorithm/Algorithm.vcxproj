@@ -714,6 +714,9 @@
     <ClCompile Include="PGM_KAKAO2021_합승 택시 요금_210526.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="PGM_KAKAO2021_신규 아이디 추천_210527.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">

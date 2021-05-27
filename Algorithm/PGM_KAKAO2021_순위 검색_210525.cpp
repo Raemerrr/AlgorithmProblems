@@ -6,19 +6,13 @@
 
 using namespace std;
 
-enum language { cpp, java, python, langAll }; int languageSize = 3;
-enum tech { backend, frontend, techAll }; int techSize = 2;
-enum food { chicken, pizza, foodAll }; int foodSize = 2;
-enum career { junior, senior, careerAll }; int careerSize = 2;
+enum language { cpp, java, python, langAll }; const int languageSize = 3;
+enum tech { backend, frontend, techAll }; const int techSize = 2;
+enum food { chicken, pizza, foodAll }; const int foodSize = 2;
+enum career { junior, senior, careerAll }; const int careerSize = 2;
 
 //Data 저장 변수 초기화
-vector<vector<vector<vector<vector<int>>>>> v(languageSize,
-	vector<vector<vector<vector<int>>>>(techSize,
-		vector<vector<vector<int>>>(careerSize,
-			vector<vector<int>>(foodSize,
-				vector<int>())
-			)
-		));
+vector<int> v[languageSize][techSize][careerSize][foodSize];
 
 vector<int> solution(vector<string> info, vector<string> query) {
 	vector<int> answer;
