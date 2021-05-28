@@ -79,6 +79,9 @@
     <Filter Include="소스 파일\프로시험대비">
       <UniqueIdentifier>{bd474329-4cb5-4a8e-bfff-d0a9f272497b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BOJ\prefix">
+      <UniqueIdentifier>{b1a18b74-7bae-409d-952d-13f0a61d1613}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="20상_KAKAO_1.cpp">
@@ -734,6 +737,9 @@
     </ClCompile>
     <ClCompile Include="PGM_KAKAO2021_신규 아이디 추천_210527.cpp">
       <Filter>소스 파일\PGM</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2167_2차원 배열의 합_210528.cpp">
+      <Filter>소스 파일\BOJ\prefix</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
