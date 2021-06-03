@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\KAKAO">
-      <UniqueIdentifier>{c994cdcc-84b6-4f3d-8c5e-6a07bedce1c5}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\SWEA">
       <UniqueIdentifier>{5ab114b5-d3a2-4ef2-ab5c-1c4759f81722}</UniqueIdentifier>
     </Filter>
@@ -84,12 +81,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="20상_KAKAO_1.cpp">
-      <Filter>소스 파일\KAKAO</Filter>
-    </ClCompile>
-    <ClCompile Include="20상_KAKAO_2.cpp">
-      <Filter>소스 파일\KAKAO</Filter>
-    </ClCompile>
     <ClCompile Include="SWEA_9088_다이아몬드.cpp">
       <Filter>소스 파일\SWEA</Filter>
     </ClCompile>
@@ -761,6 +752,9 @@
     </ClCompile>
     <ClCompile Include="PGM_KAKAO2021_광고 삽입_210603.cpp">
       <Filter>소스 파일\PGM</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_17390_이건 꼭 풀어야 해!_210604.cpp">
+      <Filter>소스 파일\BOJ\prefix</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

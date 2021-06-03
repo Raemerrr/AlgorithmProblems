@@ -45,7 +45,7 @@ string solution(string play_time, string adv_time, vector<string> logs) {
 	int n = to_integer(play_time), m = to_integer(adv_time);
 	vector<pair<int, int>> v;
 	for (auto s : logs) {
-		for (auto& i : s) if (i == '-') i = ' ';
+		replace(s.begin(), s.end(), '-', ' ');
 		stringstream in(s);
 		string t1, t2; in >> t1 >> t2;
 		v.push_back({ to_integer(t1), to_integer(t2) });
@@ -78,7 +78,6 @@ int main() {
 	//string adv_time = "50:00:00";
 	vector<string> logs{ "01:20:15-01:45:14", "00:40:31-01:00:00", "00:25:50-00:48:29", "01:30:59-01:53:29", "01:37:44-02:02:30" };
 	//vector<string> logs{ "15:36:51-38:21:49", "10:14:18-15:36:51", "38:21:49-42:51:45" };
-	solution(play_time, adv_time, logs);
-	cout << "\n";
+	cout << solution(play_time, adv_time, logs) << "\n";
 	return 0;
 }
