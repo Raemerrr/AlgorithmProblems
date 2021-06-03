@@ -759,6 +759,9 @@
     <ClCompile Include="BOJ_2435_기상청 인턴 신현수_0602.cpp">
       <Filter>소스 파일\BOJ\ETC</Filter>
     </ClCompile>
+    <ClCompile Include="PGM_KAKAO2021_광고 삽입_210603.cpp">
+      <Filter>소스 파일\PGM</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
