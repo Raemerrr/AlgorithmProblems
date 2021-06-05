@@ -756,6 +756,12 @@
     <ClCompile Include="BOJ_17390_이건 꼭 풀어야 해!_210604.cpp">
       <Filter>소스 파일\BOJ\prefix</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_14465_소가 길을 건너간 이유 5_210604.cpp">
+      <Filter>소스 파일\BOJ\prefix</Filter>
+    </ClCompile>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일\BOJ\prefix</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
