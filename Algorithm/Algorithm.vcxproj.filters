@@ -762,6 +762,12 @@
     <ClCompile Include="BOJ_16507_어두운 건 무서워_210605.cpp">
       <Filter>소스 파일\BOJ\prefix</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_12847_꿀 아르바이트_210605.cpp">
+      <Filter>소스 파일\BOJ\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_13398_연속합 2_210606.cpp">
+      <Filter>소스 파일\BOJ\prefix</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
