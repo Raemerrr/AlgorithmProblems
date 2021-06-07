@@ -771,6 +771,9 @@
     <ClCompile Include="BOJ_11969_Breed Counting_210607.cpp">
       <Filter>소스 파일\BOJ\prefix</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_1822_차집합_210608.cpp">
+      <Filter>소스 파일\진한님</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
