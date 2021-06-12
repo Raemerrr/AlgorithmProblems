@@ -4,10 +4,9 @@
 
 using namespace std;
 
-int N, maxLen, maxVal = -987654321;
+int N;
 vector<pair<int, int>> v;
 vector<int> sum;
-pair<int, int> range;
 vector<int> idx;
 
 int main() {
