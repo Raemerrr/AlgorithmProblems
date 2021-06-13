@@ -19,7 +19,7 @@ int main() {
 		cin >> v[i].first >> v[i].second;
 		idx.push_back(v[i].first), idx.push_back(v[i].second);
 	}
-	// set 처럼 중복 아이템 제거 후 정렬
+	// 중복 아이템 제거 후 정렬
 	idx.erase(unique(idx.begin(), idx.end()), idx.end());
 	sort(idx.begin(), idx.end());
 
