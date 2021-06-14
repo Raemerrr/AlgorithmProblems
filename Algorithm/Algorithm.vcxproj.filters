@@ -783,6 +783,9 @@
     <ClCompile Include="BOJ_﻿20440_니가 싫어 싫어 너무 싫어 싫어 오지 마 내게 찝쩍대지마_210611.cpp">
       <Filter>소스 파일\BOJ\prefix</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_7795_먹을 것인가 먹힐 것인가_210614.cpp">
+      <Filter>소스 파일\BOJ\prefix</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
