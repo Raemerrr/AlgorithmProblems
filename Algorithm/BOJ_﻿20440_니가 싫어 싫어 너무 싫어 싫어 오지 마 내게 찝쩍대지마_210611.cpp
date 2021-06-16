@@ -19,9 +19,9 @@ int main() {
 		cin >> v[i].first >> v[i].second;
 		idx.push_back(v[i].first), idx.push_back(v[i].second);
 	}
-	// 중복 아이템 제거 후 정렬
-	idx.erase(unique(idx.begin(), idx.end()), idx.end());
+	// 정렬 후 중복 아이템 제거
 	sort(idx.begin(), idx.end());
+	idx.erase(unique(idx.begin(), idx.end()), idx.end());
 
 	// *좌표 압축
 	for (auto& d : v) {
