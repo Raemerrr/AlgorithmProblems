@@ -17,7 +17,7 @@ LL make_tree(int Node, int Start, int End) {
 
 LL update_tree(int Node, int Start, int End, int Index, LL Value) {
 	if (Index < Start || End < Index) return segmentTree[Node];
-	if (Start == End) return segmentTree[Node] += Value;
+	if (Start == End) return segmentTree[Node] = Value;
 	int Mid = (Start + End) / 2;
 	return segmentTree[Node] = (update_tree(Node * 2, Start, Mid, Index, Value) + update_tree(Node * 2 + 1, Mid + 1, End, Index, Value));
 }
@@ -44,9 +44,7 @@ int main() {
 		cin >> a >> b >> c;
 		if (a == 1)
 		{
-			LL diff = c - v[b - 1];
-			v[b - 1] = c;
-			update_tree(1, 0, N - 1, b - 1, diff);
+			update_tree(1, 0, N - 1, b - 1, c);
 		}
 		else
 		{
