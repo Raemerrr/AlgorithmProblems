@@ -804,6 +804,9 @@
     <ClCompile Include="BOJ_2042_구간 합 구하기_210618.cpp">
       <Filter>소스 파일\BOJ\SegmentTree</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_4458_첫 글자를 대문자로_210619.cpp">
+      <Filter>소스 파일\BOJ\ETC</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
