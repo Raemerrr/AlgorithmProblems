@@ -807,6 +807,9 @@
     <ClCompile Include="BOJ_4458_첫 글자를 대문자로_210619.cpp">
       <Filter>소스 파일\BOJ\ETC</Filter>
     </ClCompile>
+    <ClCompile Include="다리건너기_알고리즘.cpp">
+      <Filter>소스 파일\Algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
