@@ -810,6 +810,9 @@
     <ClCompile Include="다리건너기_알고리즘.cpp">
       <Filter>소스 파일\Algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_10819_차이를 최대로_210621.cpp">
+      <Filter>소스 파일\진한님</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
