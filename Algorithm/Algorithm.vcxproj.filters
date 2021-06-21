@@ -813,6 +813,9 @@
     <ClCompile Include="BOJ_10819_차이를 최대로_210621.cpp">
       <Filter>소스 파일\진한님</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_11725_트리의 부모 찾기_210622.cpp">
+      <Filter>소스 파일\진한님</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
