@@ -6,9 +6,8 @@
 using namespace std;
 
 int N;
-vector<vector<int>> nodes;
+vector<vector<int>> nodes, parent;
 vector<int> depth;
-vector<vector<int>> parent;
 
 void make_tree(const int Cur) {
 	for (const int Next : nodes[Cur]) {
