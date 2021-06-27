@@ -825,10 +825,10 @@
     <ClCompile Include="BOJ_20001_고무오리 디버깅_210625.cpp">
       <Filter>소스 파일\진한님</Filter>
     </ClCompile>
-    <ClCompile Include="BOJ_19542_전단지 돌리기_도전중.cpp">
+    <ClCompile Include="BOJ_10807_개수 세기_210626.cpp">
       <Filter>소스 파일\진한님</Filter>
     </ClCompile>
-    <ClCompile Include="BOJ_10807_개수 세기_210626.cpp">
+    <ClCompile Include="BOJ_19542_전단지 돌리기_210627.cpp">
       <Filter>소스 파일\진한님</Filter>
     </ClCompile>
   </ItemGroup>
