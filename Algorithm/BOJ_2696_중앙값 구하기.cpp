@@ -67,7 +67,7 @@ int main()
 		cout << answer.size() << "\n";
 		for (int i = 0; i < answer.size(); i++)
 		{
-			if (answer.size() == 1 && ((i + 1) % 10) == 0 || (i == answer.size() - 1))
+			if (((i + 1) % 10) == 0 || (i == answer.size() - 1))
 			{
 				cout << answer[i] << "\n";
 			}
