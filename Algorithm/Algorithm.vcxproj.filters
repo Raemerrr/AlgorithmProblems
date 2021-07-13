@@ -885,6 +885,9 @@
     <ClCompile Include="BOJ_3059_등장하지 않는 문자의 합_210712.cpp">
       <Filter>소스 파일\진한님</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_1743_음식물 피하기_210713.cpp">
+      <Filter>소스 파일\진한님</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
