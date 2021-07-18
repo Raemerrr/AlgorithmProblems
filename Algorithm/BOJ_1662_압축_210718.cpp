@@ -9,7 +9,6 @@ vector<bool> visited;
 
 int dfs(string& S, int idx) {
 	int cnt = 0;
-
 	for (int i = idx; i < S.size(); i++) {
 		if (S[i] == '(' && !visited[i]) {
 			visited[i] = true;
@@ -26,14 +25,10 @@ int dfs(string& S, int idx) {
 			cnt++;
 		}
 	}
-
 	return cnt;
 }
 
 int main() {
-	int T;
-	int N, M, K, H;
-	int X, Y;
 	string S, answer; cin >> S;
 	visited.assign(S.size(), false);
 	cout << dfs(S, 0) << endl;
