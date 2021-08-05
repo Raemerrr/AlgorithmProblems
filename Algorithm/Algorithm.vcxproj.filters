@@ -948,6 +948,12 @@
     <ClCompile Include="BOJ_2884_알람 시계_210804.cpp">
       <Filter>소스 파일\진한님</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_1726_로봇_210805_실패.cpp">
+      <Filter>소스 파일\진한님</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1159_농구 경기_210805.cpp">
+      <Filter>소스 파일\진한님</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
