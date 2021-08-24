@@ -1011,6 +1011,9 @@
     <ClCompile Include="BOJ_2506_점수계산_210824.cpp">
       <Filter>소스 파일\BOJ\ETC</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_9653_스타워즈 로고_210825.cpp">
+      <Filter>소스 파일\BOJ\ETC</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
