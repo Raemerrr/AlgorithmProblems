@@ -1020,6 +1020,9 @@
     <ClCompile Include="BOJ_15727_조별과제를 하려는데 조장이 사라졌다_210829.cpp">
       <Filter>소스 파일\BOJ\ETC</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_17388_와글와글 숭고한_210902.cpp">
+      <Filter>소스 파일\BOJ\ETC</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
