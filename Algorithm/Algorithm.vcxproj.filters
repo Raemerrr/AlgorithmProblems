@@ -1041,6 +1041,12 @@
     <ClCompile Include="BOJ_21964_선린인터넷고등학교 교가_210910.cpp">
       <Filter>소스 파일\BOJ\ETC</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_5612_터널의 입구와 출구_210912.cpp">
+      <Filter>소스 파일\BOJ\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_11006_남욱이의 닭장_210911.CPP">
+      <Filter>소스 파일\BOJ\ETC</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
