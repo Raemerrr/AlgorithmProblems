@@ -1056,6 +1056,9 @@
     <ClCompile Include="BOJ_16017_Telemarketer or not_210917.cpp">
       <Filter>소스 파일\BOJ\ETC</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_2711_오타맨 고창영_210918.cpp">
+      <Filter>소스 파일\BOJ\ETC</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
