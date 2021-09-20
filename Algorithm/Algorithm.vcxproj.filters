@@ -1062,6 +1062,9 @@
     <ClCompile Include="BOJ_17094_Serious Problem_210919.cpp">
       <Filter>소스 파일\BOJ\ETC</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_21734_SMUPC의 등장_210920.cpp">
+      <Filter>소스 파일\BOJ\ETC</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
