@@ -47,4 +47,8 @@
     "python.pythonPath": "D:\\Program Files\\Python35\\python.exe",
     "python.formatting.provider": "yapf",
     "files.encoding": "euckr",
+    "files.associations": {
+      "xstring": "cpp",
+      "xiosbase": "cpp"
+    },
   }
