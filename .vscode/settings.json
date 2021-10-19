@@ -46,4 +46,5 @@
     "editor.tabSize": 2,
     "python.pythonPath": "D:\\Program Files\\Python35\\python.exe",
     "python.formatting.provider": "yapf",
+    "files.encoding": "euckr",
   }

@@ -1,2 +1,6 @@
 # AlgorithmProblems
-ì•Œê³ ë¦¬ì¦˜ ë¬¸ì œ í’€ì´ ì†ŒìŠ¤
+### ¾Ë°í¸®Áò ¹®Á¦ Ç®ÀÌ ¼Ò½º ¾÷·Îµå
+* 2021-10-19 : VisualStudio¿¡¼­ VSCode·Î ÀüÈ¯
+  * Âü°í ¸µÅ© : [°«ÁøÇÑ ºí·Î±×](https://blog.naver.com/jinhan814/222481832624)
+  * VisualStudio ÀÚÃ¼ÀûÀ¸·Î ºÐ·ùÇÏ´ø ¸ñ·ÏÀÌ ºØ±«...
+  * ¾Ë°í¸®Áò ºÐ·ùº° Æú´õ »ý¼ºÇÏ¿© Á¤¸® ¿¹Á¤... ¾ðÁ¨°£..(?)
