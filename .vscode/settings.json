@@ -1,8 +1,9 @@
 {
     "code-runner.executorMap": {
+
       "javascript": "node",
       "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
-      "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+      "cpp": "cd $dir && g++ -std=c++20 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutEx",
       // Window 10 에서는 Default Shell 이 Powershell이기 때문에 cmd로 변경해야 정상적으로 실행 됨.
       "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\cmd.exe",
       "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
