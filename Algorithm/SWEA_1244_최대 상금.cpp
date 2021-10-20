@@ -30,7 +30,7 @@ vector<int>  Proc()
 				{
 					vector<int> tempV = front;
 					swap(tempV[i], tempV[j]);
-					//?????? ???????? ???? ????
+					//저장소에 존재하지 않다면 저장
 					if (find(store.begin(), store.end(), tempV) == store.end())
 					{
 						store.emplace_back(tempV);
