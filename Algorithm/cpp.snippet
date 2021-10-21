@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+          <Title>CppMainMethod</Title>
+          <Description>Write main method code template</Description>
+          <Shortcut>cpp</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="Cpp">
+                <![CDATA[#include <iostream>
+                #include <vector>
+                #include <string>
+                
+                using namespace std;
+                
+                int $MethodName$()
+                {
+                    ios_base::sync_with_stdio(false);
+                    cin.tie(0);
+                    return 0;
+                }]]>
+            </Code>
+            <Declarations>
+                <Literal>
+                    <ID>MethodName</ID>
+                    <ToolTip>Input test method name</ToolTip>
+                    <Default>main</Default>
+                </Literal>
+            </Declarations>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
