@@ -1128,6 +1128,9 @@
     <ClCompile Include="PGM_스택_큐_다리를 지나는 트럭_211024.cpp">
       <Filter>소스 파일\PGM</Filter>
     </ClCompile>
+    <ClCompile Include="PGM_스택_큐_주식가격_211025.cpp">
+      <Filter>소스 파일\PGM</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
