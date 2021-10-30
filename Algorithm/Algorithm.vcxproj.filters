@@ -1149,6 +1149,9 @@
     <ClCompile Include="PGM_정렬_H-INDEX_211029.cpp">
       <Filter>소스 파일\PGM</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ_2460_지능형 기차 2_211030.cpp">
+      <Filter>소스 파일\BOJ\ETC</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
