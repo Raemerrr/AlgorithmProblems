@@ -22,27 +22,23 @@ void primeNumberSieve(int number)
 }
 
 int solution(string numbers) {
-	set<int> visited;
 	int answer = 0;
-	string tempMax = numbers;
-	sort(tempMax.rbegin(), tempMax.rend());
+	set<int> visited;
+	// 입력받은 문자열로 표현 가능한 최대의 수를 구하기
+	sort(numbers.rbegin(), numbers.rend());
+	primeNumberSieve(stoi(numbers));
+	// next_permutation 사용 전 오름차순 정렬
 	sort(numbers.begin(), numbers.end());
-	int arrSize = stoi(tempMax);
-	primeNumberSieve(arrSize);
-
 	for (int length = 1; length <= numbers.size(); length++)
 	{
-		vector<int> lengthArr;
-		for (int i = 0; i < length; i++) lengthArr.push_back(1);
-		for (int i = 0; i < numbers.size() - length; i++) lengthArr.push_back(0);
-		sort(lengthArr.begin(), lengthArr.end());
+		// selector생성시 오름차순으로 생성
+		vector<int> selector(numbers.size() - length, 0);
+		for (int i = 0; i < length; i++) selector.push_back(1);
 		do {
 			vector<char> v;
-			for (int i = 0; i < lengthArr.size(); i++)
+			for (int i = 0; i < selector.size(); i++)
 			{
-				if (lengthArr[i] == 1) {
-					v.push_back(numbers[i]);
-				}
+				if (selector[i] == 1) v.push_back(numbers[i]);
 			}
 			do {
 				int num = stoi(string(v.begin(), v.end()));
@@ -52,7 +48,7 @@ int solution(string numbers) {
 					answer++;
 				}
 			} while (next_permutation(v.begin(), v.end()));
-		} while (next_permutation(lengthArr.begin(), lengthArr.end()));
+		} while (next_permutation(selector.begin(), selector.end()));
 	}
 	return answer;
 }
