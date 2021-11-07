@@ -1164,6 +1164,12 @@
     <ClCompile Include="PGM_이분탐색_입국심사_211103.cpp">
       <Filter>소스 파일\PGM</Filter>
     </ClCompile>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일\PGM</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_17295_엔드게임 스포일러_211108.cpp">
+      <Filter>소스 파일\BOJ\ETC</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
