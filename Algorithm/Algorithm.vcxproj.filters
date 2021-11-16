@@ -1164,10 +1164,10 @@
     <ClCompile Include="PGM_이분탐색_입국심사_211103.cpp">
       <Filter>소스 파일\PGM</Filter>
     </ClCompile>
-    <ClCompile Include="소스.cpp">
-      <Filter>소스 파일\PGM</Filter>
-    </ClCompile>
     <ClCompile Include="BOJ_17295_엔드게임 스포일러_211108.cpp">
+      <Filter>소스 파일\BOJ\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2042_구간 합 구하기_211116.cpp">
       <Filter>소스 파일\BOJ\ETC</Filter>
     </ClCompile>
   </ItemGroup>
