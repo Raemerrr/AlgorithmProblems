@@ -79,6 +79,9 @@
     <Filter Include="소스 파일\BOJ\prefix">
       <UniqueIdentifier>{b1a18b74-7bae-409d-952d-13f0a61d1613}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BOJ\LCA">
+      <UniqueIdentifier>{33b315ef-10fb-40e5-9185-88ed8aa5ff5c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SWEA_9088_다이아몬드.cpp">
@@ -1187,6 +1190,9 @@
     </ClCompile>
     <ClCompile Include="BOJ_11505_구간 곱 구하기_211119.cpp">
       <Filter>소스 파일\BOJ\SegmentTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_11438_LCA 2_211119.cpp">
+      <Filter>소스 파일\BOJ\LCA</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
