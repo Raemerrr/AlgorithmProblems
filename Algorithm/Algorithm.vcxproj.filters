@@ -1200,6 +1200,18 @@
     <ClCompile Include="BOJ_11438_LCA 2_211123.cpp">
       <Filter>소스 파일\BOJ\LCA</Filter>
     </ClCompile>
+    <ClCompile Include="PGM_주식가격_211123.cpp">
+      <Filter>소스 파일\PGM</Filter>
+    </ClCompile>
+    <ClCompile Include="PGM_기능개발_211123.cpp">
+      <Filter>소스 파일\PGM</Filter>
+    </ClCompile>
+    <ClCompile Include="PGM_디스크 컨트롤러_211123.cpp">
+      <Filter>소스 파일\PGM</Filter>
+    </ClCompile>
+    <ClCompile Include="PGM_이중우선순위큐_211127.cpp">
+      <Filter>소스 파일\PGM</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="BOJ_1389_케빈 베이컨의 6단계 법칙.py">
